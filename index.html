@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+  <title>Coding Quiz Challenge</title>
+</head>
+
+<body>
+  <div id="highscore">
+    <a href="./view-highscore.html"><h3>View Highscores</h3></a>
+  </div>
+  <div id="timer">
+    <h3>Time</h3>
+    <span id="count">60</span>
+  </div>
+  <div>
+
+  </div>
+  <div id="opener">
+    <h1>Coding Quiz Challenge</h1>
+
+    <p>Try to answer the following code-related questions within the time limit.
+      <br>Keep in mind that incorrect answers will penalize your scoretime by ten seconds!
+    </p>
+    <button id="quizButton" type="button" name="mainButton">Start Quiz!</button>
+  </div>
+
+  <div class="quiz">
+    <h3 id="question"></h3>
+    <ul id="answerList"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
