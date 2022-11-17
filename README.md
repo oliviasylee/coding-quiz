@@ -2,21 +2,20 @@
 
 ## Description
 
-This project was designed as a module 3 challenge and this application strengthens the use of Javascript to generate a random, secure password for the user.
-When the users click "Generate Password" button, they can choose between 8 and 128 characters. Also, they can select any combination of lowercase, uppercase, numeric, and/or special characters step by step. When the password is generated and then the password is written to the page. I've created "Copy to Clipboard" so that the users can copy easily the password.
+This project was designed as a module 4 challenge about the javaScript Coding quiz. Once the user clicks "Start Quiz!", a timer starts from 60 seconds and 2 quizzes are coming up one of each. If they answer a question incorrectly, they are penalized 10 seconds. At the end of the quiz, they can enter their initials to add their score. 
+
+This application is still in progress. The view scores page and some features are not finished yet.
 
 ## Usage
-Click the screenshot and it will take you to Password generator website. 
+Click the screenshot and it will take you to the Coding Quiz Challenge website. 
 
 [![coding-quiz-screenshot](Assets/images/coding-quiz-screenshot.png)](https://oliviasylee.github.io/coding-quiz/)
 
 ## Features
-1. When the users click "Generate Password" button, they can choose between 8 and 128 characters. 
-2. They can select any combination of lowercase, uppercase, numeric, and/or special characters step by step. 
-3. When the password is generated and then the password is written to the page. 
-4. I've created "Copy to Clipboard" so that the users can copy easily the password.
+1. When the users click the "Start Quiz!" button, 2 quizzes are coming up one of each and a timer starts from 60 seconds.
+2. If the users answer a question correctly, they can move on to the next question otherwise, they are penalized 10 seconds. 
+3. At the end of the quiz, they can enter their initials to add their score.
 
 
 ## Authors
 - Olivia Seonyeong Lee
- 
