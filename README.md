@@ -8,7 +8,7 @@ When the users click "Generate Password" button, they can choose between 8 and 
 ## Usage
 Click the screenshot and it will take you to Password generator website. 
 
-[![coding-quiz-screenshot](coding-quiz-screenshot.png](https://oliviasylee.github.io/coding-quiz/)
+[![coding-quiz-screenshot](Assets/images/coding-quiz-screenshot.png)](https://oliviasylee.github.io/coding-quiz/)
 
 ## Features
 1. When the users click "Generate Password" button, they can choose between 8 and 128 characters. 
