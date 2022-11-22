@@ -82,7 +82,6 @@ function checkAnswer(event) {
   }
   if(index >= questions.length) {
     quizOver()
-    console.log("Quiz is over! You got a score of: " + score)
   } else {
     startQuiz(index)
   }
