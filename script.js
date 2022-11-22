@@ -8,7 +8,6 @@ var index = 0;
 var score = 0;
 var timePen = 10;
 
-// Reference: https://stackoverflow.com/questions/54637148/how-to-add-onclick-event-to-start-timer
 quizButton.addEventListener("click", function() {
   startTimer();
   document.getElementById("count").style = "color:black;";
@@ -72,12 +71,10 @@ function checkAnswer(event) {
   let chosenAnswer = event.target
   if(chosenAnswer.innerHTML === questions[index].correctAnswer) {
     score = score + 1
-    console.log("Correct!" + score)
     
   } else {
     score = score - 1
     counter = counter - timePen
-    console.log("Wrong" + score)
   }
   index++
   if(score <= 0) {
