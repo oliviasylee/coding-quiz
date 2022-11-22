@@ -17,7 +17,7 @@ var questions = [
   {
     question: "Commonly used data type Do Not include",
     answers: [
-      "A. Strings",
+      'A. Strings',
       'B. Boolean',
       'C. alerts',
       'D. numbers'
@@ -32,7 +32,47 @@ var questions = [
       'C. parentheses',
       'D. square brackets'
     ],
-    correctAnswer: 'C. arentheses'
+    correctAnswer: 'C. parentheses'
+  },
+  {
+    question: "JavaScript File Has An Extension of:",
+    answers: [
+      'A. .JAVA',
+      'B. .Js',
+      'C. .javascript',
+      'D. .xml'
+    ],
+    correctAnswer: 'B. .Js'
+  },
+  {
+    question: "A Function Associated With An object is Called:",
+    answers: [
+      'A. Function',
+      'B. Method',
+      'C. Link',
+      'D. None'
+    ],
+    correctAnswer: 'B. Method'
+  },
+  {
+    question: "IsNaN() Evaluates And Argument To Determine if Given Value:",
+    answers: [
+      'A. Is Not a Null',
+      'B. Is Not a Number',
+      'C. Is Not a New Object',
+      'D. None Of The Above'
+    ],
+    correctAnswer: 'B. Is Not a Number'
+  },
+  {
+    question: "How do you round the number 7.25, to the nearest integer?",
+    answers: [
+      'A. round(7.25)',
+      'B. Math.rnd(7.25)',
+      'C. Math.round(7.25)',
+      'D. rnd(7.25)'
+    ],
+    correctAnswer: 'C. Math.round(7.25)'
   }
 ];
 
