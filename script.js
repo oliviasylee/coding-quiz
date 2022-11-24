@@ -3,10 +3,17 @@ var answerList = document.getElementById("answerList");
 const quizButton = document.querySelector('#quizButton');
 const quiz = document.querySelector('.quiz');
 const opener = document.querySelector("#opener");
+var initialsEl = document.querySelector('#initials')
+var endScreenEl = document.getElementById("end-screen");
+var submitBtn = document.querySelector("submit");
+
 var counter = 60;
 var index = 0;
 var score = 0;
 var timePen = 10;
+
+var hideForm = document.querySelector("#end-screen");
+hideForm.style.display = 'none';
 
 quizButton.addEventListener("click", function() {
   startTimer();
@@ -94,6 +101,7 @@ function startTimer() {
 function startQuiz(index) {
   quiz.style.display = 'block';
   opener.style.display = "none"
+  endScreenEl.style.display = 'none';
   questionSpot.innerHTML = ""
   answerList.innerHTML = "";
   var userQuestion = questions[index].question;
@@ -128,6 +136,33 @@ function checkAnswer(event) {
 }
 
 function quizOver() {
+  clearInterval(timerId);
   questionSpot.innerHTML = "Quiz Over"
   answerList.innerHTML = "You got a score of: " + score;
+  var endScreenEl = document.getElementById("end-screen");
+  endScreenEl.style.display = "inline";
 }
+
+function saveHighscore() {
+  var initials = initialsEl.value.trim();
+  if (initials !== "") {
+    // get saved scores from localstorage, or if not any, set to empty array
+    var highscores =
+      JSON.parse(window.localStorage.getItem("highscores")) || [];
+
+    // format new score object for current user
+    var newScore = {
+      score: time,
+      initials: initials
+    };
+
+    // save to localstorage
+    highscores.push(newScore);
+    window.localStorage.setItem("highscores", JSON.stringify(highscores));
+
+    // redirect to next page
+    window.location.href = "view-highscore.html";
+  }
+}
+
+submitBtn.onclick = saveHighscore;
