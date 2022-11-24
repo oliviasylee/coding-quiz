@@ -121,7 +121,6 @@ function checkAnswer(event) {
     score = score + 1
     
   } else {
-    score = score - 1
     counter = counter - timePen
   }
   index++
@@ -136,7 +135,7 @@ function checkAnswer(event) {
 }
 
 function quizOver() {
-  clearInterval(timerId);
+  clearInterval();
   questionSpot.innerHTML = "Quiz Over"
   answerList.innerHTML = "You got a score of: " + score;
   var endScreenEl = document.getElementById("end-screen");
