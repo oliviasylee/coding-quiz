@@ -11,7 +11,6 @@ var counter = 60;
 var index = 0;
 var score = 0;
 var timePen = 10;
-var timerId;
 
 var hideForm = document.querySelector("#end-screen");
 hideForm.style.display = 'none';
