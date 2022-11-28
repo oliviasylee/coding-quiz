@@ -1,4 +1,4 @@
-# coding-quiz
+# Coding-quiz
 
 ## Description
 
