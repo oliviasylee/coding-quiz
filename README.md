@@ -7,8 +7,7 @@ This project was designed as a module 4 challenge about the javaScript Coding qu
 This application is still in progress. The view scores page and some features are not finished yet.
 
 ## Usage
-Click the screenshot and it will take you to the Coding Quiz Challenge website. 
-
+Live application deployed at: https://oliviasylee.github.io/coding-quiz/
 [![coding-quiz-screenshot](Assets/images/coding-quiz-screenshot.png)](https://oliviasylee.github.io/coding-quiz/)
 
 ## Features
@@ -16,6 +15,8 @@ Click the screenshot and it will take you to the Coding Quiz Challenge website.
 2. If the users answer a question correctly, they can move on to the next question otherwise, they are penalized 10 seconds. 
 3. At the end of the quiz, they can enter their initials to add their score.
 
+## Contributing
+Olivia Seonyeong Lee
 
-## Authors
-- Olivia Seonyeong Lee
+## Questions
+If you have any questions about this projects, please contact me at oliviasylee@gmail.com. You can view more of my projects at https://github.com/oliviasylee.
